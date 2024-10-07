@@ -1,3 +1,11 @@
-char in C is a signed type: The most significant bit has a special meaning. 
-2's compliment: (0b10000000 = 1 * -2^7 + 0 + 0 + 0 +... = -128)
+numbers.c
+  char in C is a signed type: The most significant bit has a special meaning. 
+  2's compliment: (0b10000000 = 1 * -2^7 + 0 + 0 + 0 +... = -128)
 
+code_point.c
+  why *64 or *4069?
+  what is int32_t
+  e(accent) has 2 byte UTF8 rep: 0b11000011 0b10101001 → 0b00011101001 = 233
+                                &0b00011111 0b00111111    Masking here.
+                                ----------------------
+                                 0b00000011 0b00101001 → 11101001 = 233
