@@ -1,0 +1,2 @@
+char in C is a signed type: The most significant bit has a special meaning. (0b10000000 = 1 * -2^7 + 0 + 0 + 0 +... = -128)
+
