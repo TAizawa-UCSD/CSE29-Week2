@@ -34,6 +34,11 @@ int main() {
     printf("sizeof(c + 1): %ld\n", sizeof(c + 1));        // 4
     printf("sizeof(c2): %ld\n", sizeof(c2));              // 1
 
+    char arr[] = "hello!";                                 
+    printf("sizeof(arr): %ld\n", sizeof(arr));            // 9
+
+    unsigned char toobig = 200 + 57;                    
+    printf("sizeof(toobig): %ld\n", sizeof(arr));         //gives a warning
 
     char s = 200;
     unsigned char u = 200;
