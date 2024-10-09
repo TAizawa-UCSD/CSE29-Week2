@@ -1,0 +1,1 @@
+sizeof() takes a tyoe or expression (int, utf8, etc) and reports # of bytes taken up by that type.
