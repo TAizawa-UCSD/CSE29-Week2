@@ -7,3 +7,6 @@ uint16_t : 2 bytes(0 - 65536)
 int32_t : 4 byte
 int64_t : 8 byte
 int : 4 codespaces(8 for some system), 4 ieng 6, 
+
+int32_t c = 32;
+char c2 = c + 1;  stored as 1 byte char in c2 despite maybe briefly using 4 bytes for c + 1.
