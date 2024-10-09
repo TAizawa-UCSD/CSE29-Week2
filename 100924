@@ -1,1 +1,9 @@
-sizeof() takes a tyoe or expression (int, utf8, etc) and reports # of bytes taken up by that type.
+sizeof() takes a tyoe or expression (int, utf8, etc) and reports # of bytes taken up by that type. NOT a function but a neat compiler feature.
+
+int8_t : 1 byte(-127 〜 127)
+uint8_t : 1 byte(0 - 255)
+int16_t : 2 bytes(-32767 〜 32767)
+uint16_t : 2 bytes(0 - 65536)
+int32_t : 4 byte
+int64_t : 8 byte
+int : 4 codespaces(8 for some system), 4 ieng 6, 
