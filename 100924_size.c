@@ -10,17 +10,17 @@ void print_as_bin(char c) {
 
 
 int main() {   
-    printf("sizeof(char): %ld\n", sizeof(char));
+    printf("sizeof(char): %ld\n", sizeof(char));            // 1
 
-    printf("sizeof(int8_t): %ld\n", sizeof(int8_t));
-    printf("sizeof(uint8_t): %ld\n", sizeof(uint8_t));
+    printf("sizeof(int8_t): %ld\n", sizeof(int8_t));        // 1
+    printf("sizeof(uint8_t): %ld\n", sizeof(uint8_t));      // 1
 
-    printf("sizeof(int16_t): %ld\n", sizeof(int16_t));
-    printf("sizeof(uint16_t): %ld\n", sizeof(uint16_t));
+    printf("sizeof(int16_t): %ld\n", sizeof(int16_t));      // 2
+    printf("sizeof(uint16_t): %ld\n", sizeof(uint16_t));    // 2
 
-    printf("sizeof(int32_t): %ld\n", sizeof(int32_t));
+    printf("sizeof(int32_t): %ld\n", sizeof(int32_t));      // 4
 
-    printf("sizeof(int64_t): %ld\n", sizeof(int64_t));
+    printf("sizeof(int64_t): %ld\n", sizeof(int64_t));      // 8
 
     printf("sizeof(int): %ld\n", sizeof(int));
 
@@ -28,11 +28,11 @@ int main() {
     int32_t i = 32;
     char c2 = c + 1;
 
-    printf("sizeof(c): %ld\n", sizeof(c));
-    printf("sizeof(i): %ld\n", sizeof(i));
-    printf("sizeof(c * 4000): %ld\n", sizeof(c * 4000));
-    printf("sizeof(c + 1): %ld\n", sizeof(c + 1));
-    printf("sizeof(c2): %ld\n", sizeof(c2));
+    printf("sizeof(c): %ld\n", sizeof(c));                // 1
+    printf("sizeof(i): %ld\n", sizeof(i));                // 4
+    printf("sizeof(c * 4000): %ld\n", sizeof(c * 4000));  // 4
+    printf("sizeof(c + 1): %ld\n", sizeof(c + 1));        // 4
+    printf("sizeof(c2): %ld\n", sizeof(c2));              // 1
 
 
     char s = 200;
