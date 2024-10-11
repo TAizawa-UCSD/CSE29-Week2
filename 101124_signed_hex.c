@@ -20,7 +20,7 @@ int main() {
     printf("\n");
 
     printf("s as hhx: %hhx\t\tu as hhx: %hhx\n", s, u);
-    printf("s as x: %x\tu as x: %x\n", s, u);
+    printf("s as x: %x\tu as x: %x\n", s, u);            //sign extension for signed char.
 
     printf("s < 127: %d\t\tu < 127: %d\n", s > 127, u > 127);
 }
