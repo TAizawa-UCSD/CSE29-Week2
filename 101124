@@ -3,3 +3,5 @@
 3 byte character start with E in hex (0x1110...).
 4 byte character start with F in hex (0x1111...).
 
+%hhx: use the width/size of the argument
+%x: use 4 bytes to print (sign extension may happen).
