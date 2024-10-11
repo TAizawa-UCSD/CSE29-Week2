@@ -4,7 +4,12 @@
 int32_t code_point2(char c1, char c2) {
     char part1 = c1 & 0b00011111;
     char part2 = c2 & 0b00111111;
-    return (part1 << 6) + part2;
+    // << means "left shift", a << b means move the bits in a to the left by b amount.
+    // part1 << 6 means move all the bits in part1 to the left by 6.
+    // c3 a9
+    // 1100 0011 1010 1001
+    // 0 0011 10 1001
+    return (part1 << 6) + part2; // (part1 << 6) ,eams (part2 * 64). (a << b) means (a * 2^b).
 }
 
 int32_t code_point3(char c1, char c2, char c3) {
