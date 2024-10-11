@@ -1,1 +1,5 @@
+1 byte character start with 0 - 7 in hex.
+2 byte character start with C or D in hex (0x1100... or 0x1101...).
+3 byte character start with E in hex (0x1110...).
+4 byte character start with F in hex (0x1111...).
 
